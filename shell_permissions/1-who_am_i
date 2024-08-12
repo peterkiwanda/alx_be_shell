@@ -1,6 +1,5 @@
 #!/bin/bash
-echo "$USER"
-nano 1-who_am_i
-chmod +x 1-who_am_i
+# Print the effective username of the current user
 
-
+# Use the `whoami` command to get the effective username
+whoami
